@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+  color: var(--clr-primary-base);
+}
+
+body{
+  font-size: 1rem;
+}
+
+header{
+  background-color: var( --clr-bgc-header);
+}
+h2{
+  font-size: 1.75rem;
+  text-transform:uppercase;
+  color: var(--color-h2);
+}
+header li{
+  color: #FFFFFF;
+}
+
+footer{
+  background-color: rgba(248, 248, 248, 1);
+}
+

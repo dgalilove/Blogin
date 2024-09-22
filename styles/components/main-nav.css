@@ -1,0 +1,31 @@
+.main-nav-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 520px;
+  height: 133px;
+}
+
+.main-nav-list li {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  border-left: 1px solid black;
+}
+.main-nav-list li:last-child{
+  border-right: 1px solid black;
+
+}
+
+.main-nav-list a {
+  color: white;
+  text-decoration: none;
+  transition: 300ms; 
+}
+
+.main-nav-list li:hover {
+  border-bottom: 5px solid var(--clr-button-hover);
+}
+
+.main-nav-list li:hover a {
+  color: var(--clr-button-hover); 
+}

@@ -1,0 +1,39 @@
+.main-footer {
+  height: 318px;
+}
+
+.main-footer-container {
+  display: grid;
+  height: 84%;
+  place-items: center;
+}
+
+.main-footer-container img {
+  margin-top: 70px;
+}
+
+.social {
+  width: 43px;
+  height: 43px;
+  margin-right: 17px;
+  border: none;
+  background-color: rgb(229, 229, 229);
+  color: white;
+  transition: 500ms;
+}
+
+.social.facebook:hover {
+  background-color: #425e9a;
+}
+
+.social.x:hover {
+  background-color: #080808;
+}
+
+.social.behance:hover {
+  background-color: #0054f8;
+}
+
+.social.dribble:hover {
+  background-color: #fface7;
+}
